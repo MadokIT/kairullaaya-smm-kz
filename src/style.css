@@ -242,10 +242,9 @@ a{color:inherit}
 .avatar{
   width:44px; height:44px;
   border-radius:14px;
-  display:grid; place-items:center;
-  font-weight:850;
-  background: linear-gradient(135deg, rgba(124,92,255,.7), rgba(39,214,198,.35));
+  object-fit:cover;
   border:1px solid rgba(255,255,255,.18);
+  flex-shrink:0;
 }
 .card__name{margin:0; font-weight:800}
 .card__role{margin:2px 0 0; color:var(--muted2); font-size:13px}
