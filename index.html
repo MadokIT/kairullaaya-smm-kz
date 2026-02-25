@@ -2,10 +2,295 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=./Prob2026/" />
-    <title>Аяулым — SMM‑маркетолог</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Аяулым — SMM‑маркетолог: реклама, обучение ИИ, IT‑курсы. Кейсы, тарифы, контакты." />
+    <title>Аяулым — SMM‑маркетолог • реклама • обучение ИИ</title>
+    <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
-    <p>Переадресация… <a href="./Prob2026/">Перейти на сайт</a></p>
+    <div class="intro" id="intro" aria-hidden="true"></div>
+    <div class="fx" aria-hidden="true"></div>
+    <div class="word-layer" id="wordLayer" aria-hidden="true"></div>
+
+    <a class="skip" href="#main">Перейти к содержимому</a>
+
+    <header class="header">
+      <div class="container header__inner">
+        <a class="logo" href="#top" aria-label="На главную">
+          <img class="logo__img" src="./img/logo.svg" width="32" height="32" alt="Логотип" />
+          <span class="logo__mark">SMM</span>
+          <span class="logo__text">Аяулым</span>
+        </a>
+
+        <nav class="nav" aria-label="Основная навигация">
+          <a class="nav__link" href="#services">Услуги</a>
+          <a class="nav__link" href="#cases">Кейсы</a>
+          <a class="nav__link" href="#pricing">Тарифы</a>
+          <a class="nav__link" href="#contact">Контакты</a>
+        </nav>
+
+        <div class="header__actions">
+          <a class="btn btn--ghost" href="#contact">Бесплатный разбор</a>
+          <button class="menu" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileNav">
+            <span class="menu__bar" aria-hidden="true"></span>
+            <span class="menu__bar" aria-hidden="true"></span>
+            <span class="menu__bar" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile" id="mobileNav" hidden>
+        <div class="container mobile__inner">
+          <a class="mobile__link" href="#services">Услуги</a>
+          <a class="mobile__link" href="#cases">Кейсы</a>
+          <a class="mobile__link" href="#pricing">Тарифы</a>
+          <a class="mobile__link" href="#contact">Контакты</a>
+          <a class="btn btn--primary mobile__cta" href="https://www.instagram.com/kairullaaya?igsh=bmx5cmk3bnZqa3pr" target="_blank" rel="noreferrer">Написать в Direct</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="pill">SMM‑маркетолог • реклама • обучение ИИ • IT‑курсы</p>
+            <h1 class="h1">Продвижение в Instagram и соцсетях: контент, реклама и обучение — понятно и по цифрам</h1>
+            <p class="lead">
+              Hadiyamsyn! Я Аяулым — помогу с упаковкой профиля, контентом, рекламой и аналитикой.
+              Также обучаю базовым инструментам ИИ и веду IT‑курсы.
+            </p>
+
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="https://www.instagram.com/kairullaaya?igsh=bmx5cmk3bnZqa3pr" target="_blank" rel="noreferrer">Написать в Direct</a>
+              <a class="btn btn--ghost" href="#services">Выбрать услугу</a>
+            </div>
+
+            <dl class="stats" aria-label="Ключевые показатели">
+              <div class="stat">
+                <dt class="stat__k">+120%</dt>
+                <dd class="stat__v">средний рост охватов</dd>
+              </div>
+              <div class="stat">
+                <dt class="stat__k">14 дней</dt>
+                <dd class="stat__v">первый результат по контенту</dd>
+              </div>
+              <div class="stat">
+                <dt class="stat__k">3–5</dt>
+                <dd class="stat__v">форматов контента в миксе</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="hero__card" aria-label="Карточка с краткой информацией">
+            <div class="card">
+              <img class="card__photo" src="./img/10.jpg" alt="Аяулым" loading="eager" decoding="async" />
+              <div class="card__top">
+                <div class="avatar" aria-hidden="true">АЯ</div>
+                <div>
+                  <p class="card__name">Аяулым</p>
+                  <p class="card__role">SMM‑маркетолог • реклама • обучение ИИ</p>
+                </div>
+              </div>
+
+              <ul class="card__list">
+                <li>Instagram: контент, сторис и Reels</li>
+                <li>Реклама и лиды: тест гипотез и связок</li>
+                <li>Обучение ИИ + IT‑курсы для новичков</li>
+              </ul>
+
+              <div class="card__badges" aria-label="Специализация">
+                <span class="badge">Instagram</span>
+                <span class="badge">Реклама</span>
+                <span class="badge">ИИ</span>
+                <span class="badge">IT‑курсы</span>
+              </div>
+
+              <a class="btn btn--primary btn--block" href="#contact">Записаться на консультацию</a>
+              <p class="hint">Пишите в Instagram — отвечаю по возможности быстро.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="h2">Услуги</h2>
+            <p class="muted">SMM, реклама и обучение — под вашу задачу.</p>
+          </div>
+
+          <div class="grid grid--3">
+            <article class="tile">
+              <h3 class="h3">SMM‑маркетинг</h3>
+              <p class="muted">Упаковка → контент‑система → регулярность → рост.</p>
+              <ul class="list">
+                <li>аудит профиля и позиционирование</li>
+                <li>контент‑план, рубрикатор, сценарии Reels</li>
+                <li>публикации, сторис и модерация</li>
+              </ul>
+            </article>
+
+            <article class="tile">
+              <h3 class="h3">Реклама</h3>
+              <p class="muted">Запуск, тесты, оптимизация и понятные отчёты.</p>
+              <ul class="list">
+                <li>цели, аудитории и офферы</li>
+                <li>креативы и связки (тест гипотез)</li>
+                <li>оптимизация по KPI</li>
+              </ul>
+            </article>
+
+            <article class="tile">
+              <h3 class="h3">Обучение ИИ и IT‑курсы</h3>
+              <p class="muted">Обучение с нуля: практика, домашки и поддержка.</p>
+              <ul class="list">
+                <li>ИИ‑инструменты для работы и контента</li>
+                <li>основы IT: навыки для старта</li>
+                <li>разбор ошибок и рекомендации</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="cases">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="h2">Кейсы</h2>
+            <p class="muted">Примеры результатов (цифры можно адаптировать под ваши данные).</p>
+          </div>
+
+          <div class="grid grid--3">
+            <article class="case">
+              <div class="case__tag">Локальный бизнес</div>
+              <h3 class="h3">Заявки через Reels + реклама</h3>
+              <p class="muted">Рост заявок при ограниченном бюджете.</p>
+              <dl class="case__metrics">
+                <div><dt>Заявки</dt><dd>+68%</dd></div>
+                <div><dt>CPL</dt><dd>-23%</dd></div>
+                <div><dt>Срок</dt><dd>6 недель</dd></div>
+              </dl>
+            </article>
+
+            <article class="case">
+              <div class="case__tag">IT‑курсы</div>
+              <h3 class="h3">Набор группы через контент</h3>
+              <p class="muted">Прогрев + понятные офферы под разные уровни.</p>
+              <dl class="case__metrics">
+                <div><dt>Охваты</dt><dd>+140%</dd></div>
+                <div><dt>CTR</dt><dd>+0.9 п.п.</dd></div>
+                <div><dt>Срок</dt><dd>2 месяца</dd></div>
+              </dl>
+            </article>
+
+            <article class="case">
+              <div class="case__tag">Обучение ИИ</div>
+              <h3 class="h3">Упаковка продукта и продажи</h3>
+              <p class="muted">Чёткая программа, выгоды и заявки через Direct.</p>
+              <dl class="case__metrics">
+                <div><dt>Подписчики</dt><dd>+1 200</dd></div>
+                <div><dt>Лиды</dt><dd>+37%</dd></div>
+                <div><dt>Срок</dt><dd>5 недель</dd></div>
+              </dl>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="pricing">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="h2">Тарифы</h2>
+            <p class="muted">Стоимость зависит от объёма задач. Ниже — базовые пакеты.</p>
+          </div>
+
+          <div class="grid grid--3">
+            <article class="price">
+              <h3 class="h3">SMM</h3>
+              <p class="price__num">от 25 000 ₸</p>
+              <p class="muted">Контент и регулярность для стабильного роста.</p>
+              <ul class="list">
+                <li>контент‑план</li>
+                <li>8–12 постов/мес</li>
+                <li>сторис 3–4 раза/нед</li>
+              </ul>
+              <a class="btn btn--ghost btn--block" href="#contact">Уточнить</a>
+            </article>
+
+            <article class="price price--featured" aria-label="Рекомендуемый тариф">
+              <div class="price__pill">Рекомендуем</div>
+              <h3 class="h3">SMM + реклама</h3>
+              <p class="price__num">от 45 000 ₸</p>
+              <p class="muted">Если нужны заявки: контент + запуск рекламы.</p>
+              <ul class="list">
+                <li>контент‑стратегия</li>
+                <li>12–16 постов/мес</li>
+                <li>таргет: тест 5–8 связок</li>
+              </ul>
+              <a class="btn btn--primary btn--block" href="#contact">Хочу заявки</a>
+            </article>
+
+            <article class="price">
+              <h3 class="h3">Обучение</h3>
+              <p class="price__num">от 80 000 ₸</p>
+              <p class="muted">Обучение ИИ и IT‑навыкам: программа, практика, поддержка.</p>
+              <ul class="list">
+                <li>индивидуально или мини‑группа</li>
+                <li>практика и домашние задания</li>
+                <li>план развития и рекомендации</li>
+              </ul>
+              <a class="btn btn--ghost btn--block" href="#contact">Записаться</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="contact">
+        <div class="container">
+          <div class="contact">
+            <div class="contact__text">
+              <h2 class="h2">Контакты</h2>
+              <p class="muted">Напишите в Instagram, какая у вас задача — отвечу и подскажу, с чего начать.</p>
+
+              <ul class="contact__list">
+                <li><span class="k">Instagram:</span> <a class="link" href="https://www.instagram.com/kairullaaya?igsh=bmx5cmk3bnZqa3pr" target="_blank" rel="noreferrer">@kairullaaya</a></li>
+              </ul>
+
+              <p class="note">Можно написать через форму: текст скопируется, а затем откроется Instagram.</p>
+            </div>
+
+            <form class="form" id="leadForm" autocomplete="on" data-instagram="https://www.instagram.com/kairullaaya?igsh=bmx5cmk3bnZqa3pr">
+              <label class="field">
+                <span class="field__label">Имя</span>
+                <input class="input" name="name" placeholder="Например, Аяулым" required />
+              </label>
+
+              <label class="field">
+                <span class="field__label">Контакт (Instagram/WhatsApp/телефон)</span>
+                <input class="input" name="contact" placeholder="@kairullaaya или +7…" required />
+              </label>
+
+              <label class="field">
+                <span class="field__label">Задача</span>
+                <textarea class="textarea" name="message" rows="4" placeholder="SMM / реклама / обучение ИИ / IT‑курсы — что нужно?" required></textarea>
+              </label>
+
+              <button class="btn btn--primary btn--block" type="submit">Скопировать и открыть Instagram</button>
+              <p class="hint">Текст заявки скопируется (если доступно) и откроется профиль для отправки в Direct.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="muted">© <span id="year"></span> Аяулым • SMM</p>
+        <a class="link" href="#top">Наверх</a>
+      </div>
+    </footer>
+
+    <script defer src="./src/main.js"></script>
   </body>
 </html>
