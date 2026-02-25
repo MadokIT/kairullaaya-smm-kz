@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://madokit.github.io/kairullaaya-smm-kz/sitemap.xml
